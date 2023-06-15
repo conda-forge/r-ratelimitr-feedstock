@@ -1,11 +1,11 @@
-About r-ratelimitr
-==================
+About r-ratelimitr-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ratelimitr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tarakc02/ratelimitr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ratelimitr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Allows to limit the rate at which one or more functions can be called.
 
