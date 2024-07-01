@@ -1,6 +1,5 @@
 {% set version = '0.4.1' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ratelimitr
@@ -13,8 +12,7 @@ source:
   sha256: 2b21e4574521c5336feeb3041eaf096bde7857b140049cdeb6ec97dc652aa71b
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
